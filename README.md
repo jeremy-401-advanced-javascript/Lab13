@@ -5,8 +5,8 @@
 ### Author: Jeremy Lee
 
 ### Links and Resources
-* [submission PR](https://github.com/jeremy-401-advanced-javascript/Lab11/pull/2)
-* [travis]([![Build Status](https://www.travis-ci.com/jeremy-401-advanced-javascript/Lab11.svg?branch=master)](https://www.travis-ci.com/jeremy-401-advanced-javascript/Lab11))
+* [submission PR](https://github.com/jeremy-401-advanced-javascript/Lab13/pull/1)
+* [travis]([![Build Status](https://www.travis-ci.com/jeremy-401-advanced-javascript/Lab13.svg?branch=master)](https://www.travis-ci.com/jeremy-401-advanced-javascript/Lab13))
  
 
 
@@ -30,7 +30,7 @@ Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - 30000
+* `PORT` - 80000
 * `MONGODB_URI` - URL mongodb://localhost:27017/class13
 
 #### Running the app
