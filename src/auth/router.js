@@ -5,6 +5,7 @@ const authRouter = express.Router();
 
 const User = require('./users-model.js');
 const auth = require('./middleware.js');
+const Role = require('./roles-models.js');
 
 authRouter.post('/signup', (req, res, next) => {
   let user = new User(req.body);
@@ -18,9 +19,16 @@ authRouter.post('/signup', (req, res, next) => {
     }).catch(next);
 });
 
-authRouter.post('/signin', auth, (req, res, next) => {
+
+authRouter.post('/signin', auth(), (req, res, next) => {
   res.cookie('auth', req.token);
   res.send(req.token);
+});
+
+
+authRouter.post('/key', auth, (req,res,next) => {
+  let key = req.user.generateKey();
+  res.status(200).send(key);
 });
 
 
