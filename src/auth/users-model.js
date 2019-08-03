@@ -13,7 +13,7 @@ const users = new mongoose.Schema({
   email: {type: String},
   role: {type: String, default:'user', enum: ['admin','editor','user']},
 }, { toObject: {virtuals:true}, toJSON: {virtuals:true}});
-
+// something to submit
 users.virtual('acl', {
   ref: 'roles',
   localField: 'role',
