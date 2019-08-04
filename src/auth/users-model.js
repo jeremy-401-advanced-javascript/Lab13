@@ -21,7 +21,7 @@ users.virtual('acl', {
   justOne: true
 });
 
-users.pre('findeOne', function() {
+users.pre('findOne', function() {
   try {
     this.populate('acl');
   }
