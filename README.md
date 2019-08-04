@@ -5,7 +5,7 @@
 ### Author: Jeremy Lee
 
 ### Links and Resources
-* [submission PR](https://github.com/jeremy-401-advanced-javascript/Lab11/pull/2)
+* [submission PR](https://github.com/jeremy-401-advanced-javascript/Lab13/pull/3)
 * [travis]([![Build Status](https://www.travis-ci.com/jeremy-401-advanced-javascript/Lab11.svg?branch=master)](https://www.travis-ci.com/jeremy-401-advanced-javascript/Lab11))
  
 
